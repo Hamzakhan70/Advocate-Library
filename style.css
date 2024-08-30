@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{display: flex;
+height: 400px;}
+.header-left{
+ width: 40%;
+ /* background-color: aqua; */
+ background-image:url(advocate.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.header-right{
+    width: 60%;   
+    background-color: rgb(126, 128, 128);
+}
+.right-main{
+width: 80%;
+    padding-left: 53px;
+    padding-top: 60px;
+
+    /* text-align: center; */
+}
+.right-main h1{
+    font-size: 4em;
+    font-family:fantasy;
+}
+.right-main p{
+    margin: 10px;
+}
+.btn{
+    border-radius: 25px; /* adjust the value to make the rounding more or less prominent */ 
+  padding: 10px 30px; /* add some padding to the button content to make it look more spacious */
+  border: none; /* remove the default button borders */
+  background-color: #332b90;
+}
+
+/* ---main */
+.about-section{
+padding: 30px;
+background-color: #332b90;
+
+}
+.about-section h1{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 120px;
+
+}
+.card{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
