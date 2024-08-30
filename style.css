@@ -56,3 +56,60 @@ background-color: #332b90;
     margin: 10px;
     padding: 20px;
 }
+/* --------- */
+.contact-section{
+    background-image: url(building.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    /* padding: 120px; */
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact-section > * {
+    /* font-size: xx-large; */
+    margin: 30px;
+}
+.contact-form{
+background-color: white;
+/* width: 50%; */
+height: 100px;
+margin: 0px 150px;
+}
+.contact-form input{
+    padding: 12px;
+    margin: 28px 5px;
+}
+.aform{
+    background-color: rgb(207, 207, 207);
+    width: 248px;
+}
+.form-btn{
+    background-color: #332b90;
+    color: white;
+    width: 90px;
+    
+}
+.contact-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card2{
+    background-color: #332b90;
+    padding: 41px 80px 41px 11px;
+    width: 189px;
+}
+.card2 > h3{
+    padding: 11px;
+}
+/* footer */
+.footer{
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(63, 61, 61);
+}
